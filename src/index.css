@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: dimgray;
+  background: linear-gradient(to right, #010130, #098da8)
+}
+
+div.container {
+  margin: auto;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+}
+
+table {
+  border-collapse: separate;
+  border: 10px solid rgb(174, 88, 88);
+  border-radius: 20px;
+}
+
+tr td {
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px;
+  border: 2px solid rgba(116, 57, 57, 0.489);
+  background-color: #fff;
+  user-select: none;
+}
+
+#myResult {
+  text-align: right;
+  font-size: larger;
+  background-color: rgba(67, 60, 57, 0.457);
+  color: whitesmoke;
+  border: none;
+  height: 60px;
+}
+
+tr:nth-of-type(2)>td {
+  line-height: 10px;
+}
+
+.num,
+.cal {
+  cursor: pointer;
+}
+
+.num:hover,
+.cal:hover {
+  background-color: rgb(174, 88, 88);
+  border: none;
+  color: white;
+}
